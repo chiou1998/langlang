@@ -1,0 +1,143 @@
+#slide-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+#slide-content {
+  position: relative;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
+  left: 0px;
+}
+
+#slide-content ul:nth-child(1) {
+  padding: 0;
+  font-size: 0;
+}
+
+#slide-content ul:nth-child(1) li {
+  float: left;
+  list-style: none;
+}
+
+.slide-nav {
+  position: absolute;
+  font-size: 0;
+  left: 0;
+  bottom: 12px;
+  right: 0;
+  text-align: center;
+}
+
+.slide-nav a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #d9efef;
+  width: 8px;
+  height: 3px;
+  margin: 3px;
+}
+
+.slide-nav a:hover {
+  background-color: #ffffff;
+}
+
+.slide-nav .current {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #00b75a;
+  width: 8px;
+  height: 3px;
+  margin: 3px;
+}
+
+.slide-nav .current:hover {
+  background-color: #ffffff;
+}
+
+.slide-prev, .slide-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.slide-prev {
+  left: 10px;
+}
+
+.slide-next {
+  right: 10px;
+}
+
+.list-info {
+  padding: 0 45px;
+}
+
+.list-info ul {
+  padding-left: 0;
+}
+
+.list-info ul figure {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 33.33333%;
+  padding: 0 25px 0 25px;
+}
+
+.list-info ul figure .scale-p {
+  width: 319.983px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.list-info ul figure .scale-p img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+.list-info ul figure .scale-p img:hover {
+  scale: 1.2;
+}
+
+.list-info ul figure figcaption {
+  font-size: 18px;
+  border-bottom: 1px solid #a0a0a0;
+  padding: 24px 0 10px;
+  width: 320px;
+}
+
+.list-info ul figure p {
+  line-height: 22px;
+  padding-top: 11px;
+  color: #a0a0a0;
+}
+
+.list-info .more {
+  display: block;
+  height: 35px;
+  width: 108px;
+  border: 1px solid #e8e8e8;
+  border-radius: 100px;
+  margin: 55px auto 90px;
+  line-height: 37px;
+  text-align: center;
+  text-decoration: none;
+  color: #a0a0a0;
+  -webkit-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.list-info .more:hover {
+  background-color: #21b8c6;
+  border-color: #21b8c6;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

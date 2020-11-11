@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import "sassConfig";
+
+// * {
+//     margin: 0;
+//     padding: 0;
+//   }
+//解决了ul元素自带16px margin或者padding值的问题   
+#slide-wrap{
+    position: relative;
+    overflow: hidden;
+}
+#slide-content{
+    position: relative;
+    transition: all 1s ease 0s;
+    left:0px;
+    // 解决了图片这类内联元素自带的下缝隙，不是所有浏览器都存在此类bug，只限ie7 
+    ul:nth-child(1){ 
+        padding: 0;
+        font-size: 0;
+        li{
+            float: left;
+            list-style: none;
+        
+        }
+    }
+}
+.slide-nav{
+    position: absolute;
+    font-size: 0;
+    left:0;
+    bottom: 12px;
+    right: 0;
+    text-align: center;
+        // a:nth-child(2),a:nth-child(3){
+        //     display:inline-block;
+        //     text-decoration: none;
+        //     background-color:#d9efef;
+        //     width: 8px;
+        //     height:3px;
+        //     margin:3px;
+        //     &:hover{
+        //         background-color: #ffffff;
+        //     }   
+        a{
+                display:inline-block;
+                text-decoration: none;
+                background-color:#d9efef;
+                width: 8px;
+                height:3px;
+                margin:3px;
+                &:hover{
+                    background-color: #ffffff;
+                }
+        }  
+        .current{
+            display:inline-block;
+            text-decoration: none;
+            background-color:#00b75a;
+            width: 8px;
+            height:3px;
+            margin:3px;
+            &:hover{
+                background-color: #ffffff;
+            }
+    }   
+}
+
+//slide图箭头
+.slide-prev,.slide-next{
+    position: absolute;
+    top:50%;
+    margin-top: -25px;
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.slide-prev{left: 10px;}
+.slide-next{right:10px;}
+
+//图文列表
+.list-info{
+    padding: 0 45px;
+    ul{
+        padding-left: 0;
+        figure{
+            @include webkit(box-sizing, border-box);
+            float: left;
+            width:33.33333%;
+            padding:0 25px 0 25px;
+            .scale-p{
+                width: 319.983px;
+                height: 120px;
+                overflow: hidden;
+                img{ 
+                    width: 100%;
+                    height: 100%;  
+                    transition: all ease 1s ;                 
+                    &:hover{
+                        scale: 1.2;                       
+                    }
+                }
+            }
+            figcaption{
+                font-size: 18px;
+                border-bottom: 1px  solid $text-two;
+                padding: 24px 0 10px;  
+                width:320px;             
+            }
+            p{
+                line-height: 22px;
+                padding-top: 11px;
+                color: $text-two;
+            }
+        }
+    }
+    .more{
+        display: block;
+        height: 35px;
+        width: 108px;
+        border: 1px solid #e8e8e8;
+        border-radius: 100px;
+        margin: 55px auto 90px;      
+        line-height: 37px;
+        text-align: center;
+        text-decoration: none;
+        color: #a0a0a0;
+        transition: all 0.4s ease 0s;
+        &:hover{
+            background-color:#21b8c6;
+            border-color: #21b8c6;
+            color: white;
+        }      
+    }
+}
+

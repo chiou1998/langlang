@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+//定义浏览器内核属性
+@mixin  webkit($type, $value) {
+    -webkit-#{$type}: $value;
+    -moz-#{$type}: $value;
+    -ms-#{$type}: $value;
+    -o-#{$type}: $value;
+    #{$type}: $value;
+}
+
+$text-one:#010101;
+$text-two:#a0a0a0;
+$container:1200px

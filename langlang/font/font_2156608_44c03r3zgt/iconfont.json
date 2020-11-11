@@ -1,0 +1,44 @@
+{
+  "id": "2156608",
+  "name": "langlang",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3861454",
+      "name": "天气",
+      "font_class": "tianqi",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "3901163",
+      "name": "男生",
+      "font_class": "nansheng",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5732985",
+      "name": "关爱、爱心，关心，呵护",
+      "font_class": "guanai-aixin",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "579861",
+      "name": "微博",
+      "font_class": "weibo1",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "978354",
+      "name": "微信",
+      "font_class": "gongzhonghao",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    }
+  ]
+}
