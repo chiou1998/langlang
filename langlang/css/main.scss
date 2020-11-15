@@ -84,6 +84,7 @@
     ul{
         padding-left: 0;
         figure{
+            
             @include webkit(box-sizing, border-box);
             float: left;
             width:33.33333%;
@@ -105,12 +106,14 @@
                 font-size: 18px;
                 border-bottom: 1px  solid $text-two;
                 padding: 24px 0 10px;  
-                width:320px;             
+                width:320px; 
+                
             }
             p{
                 line-height: 22px;
                 padding-top: 11px;
                 color: $text-two;
+                           
             }
         }
     }
