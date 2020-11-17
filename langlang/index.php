@@ -20,9 +20,7 @@
         </style>
     <title>派大星测试</title>
 </head>
-<body>  
-
-
+<body> 
     <div class="container">
         <header>
             <div class="clearfix">
@@ -143,6 +141,27 @@
         </ul>
         <a class="more" href="">查看更多</a>
         </div>
+        <section>
+            <header>
+            <div class="main-column padding-top-55 padding-bottom-53">
+            <h4 class="column-title">朗朗口腔</h4>
+            <p class="column-dec">呵护牙齿健康  创造美好未来
+                <span></span>
+                care for teeth to create a better future</p>
+        </div>
+            </header>
+            <div class="section-one clearfix">
+                <div class="wrap">
+                    sdadsad
+                </div>
+                <div class="wrap">
+                    sdadsad
+                </div>
+                <div class="wrap">
+                    sdadsad
+                </div>
+            </div>
+        </section>
     </div>
     <div class="footer-first">
     <div class="container">

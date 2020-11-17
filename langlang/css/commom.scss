@@ -372,3 +372,9 @@ footer{
         animation: loading 1s linear infinite;
     }
 }
+
+//定义了一个padding类
+@for $i from 1 through 1000{
+    .padding-top-#{$i} {padding-top: (1px * $i);}
+    .padding-bottom-#{$i} {padding-bottom: (1px * $i);}
+}

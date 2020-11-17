@@ -112,13 +112,13 @@
   border-bottom: 1px solid #a0a0a0;
   padding: 24px 0 10px;
   width: 320px;
-  color: black;
 }
 
 .list-info ul figure p {
   line-height: 22px;
   padding-top: 11px;
   color: #a0a0a0;
+  text-decoration: none;
 }
 
 .list-info .more {
@@ -140,5 +140,14 @@
   background-color: #21b8c6;
   border-color: #21b8c6;
   color: white;
+}
+
+section header .main-column {
+  background-color: #efefef;
+}
+
+.section-one .wrap {
+  float: left;
+  width: 33.333%;
 }
 /*# sourceMappingURL=main.css.map */
