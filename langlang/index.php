@@ -152,13 +152,29 @@
             </header>
             <div class="section-one clearfix">
                 <div class="wrap">
-                    sdadsad
+                    <div class="content-big">
+                        <img src="./images/content-one.jpg" alt="">
+                    </div>
+                    <div class="content-small">
+                      <img src="./images/content-two.jpg" alt="">
+                    </div>
                 </div>
                 <div class="wrap">
-                    sdadsad
+                <div class="content-big">
+                        <img src="./images/content-three.jpg" alt="">
+                        </div>
+                        <div class="content-small">
+                        <img src="./images/content-four.jpg" alt="">
+                        </div>
                 </div>
                 <div class="wrap">
-                    sdadsad
+                        <div class="content-small">
+                        <img src="./images/content-five.jpg" alt="">  
+                        </div>
+                        <div class="content-big">
+                        <img src="./images/content-six.jpg" alt="">
+                        </div>
+                </div>
                 </div>
             </div>
         </section>

@@ -145,10 +145,15 @@ section{
         
     }  
 }
-
 .section-one{   
     .wrap{              
        float: left;  
        width: 33.333%;
     }
 }
+    .content-big{
+        height: 380px;
+    }
+    .content-small{
+        height: 190px;
+    }

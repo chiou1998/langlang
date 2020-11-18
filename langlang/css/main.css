@@ -150,4 +150,12 @@ section header .main-column {
   float: left;
   width: 33.333%;
 }
+
+.content-big {
+  height: 380px;
+}
+
+.content-small {
+  height: 190px;
+}
 /*# sourceMappingURL=main.css.map */
