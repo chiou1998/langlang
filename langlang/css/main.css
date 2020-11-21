@@ -146,16 +146,147 @@ section header .main-column {
   background-color: #efefef;
 }
 
-.section-one .wrap {
-  float: left;
-  width: 33.333%;
+.section-one div:nth-child(1) .content-flex-big {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.section-one div:nth-child(1) .content-flex-small {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.content-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content-flex-big {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.content-flex-small {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .content-big {
-  height: 380px;
+  height: 100%;
+}
+
+.content-big img {
+  display: block;
 }
 
 .content-small {
-  height: 190px;
+  height: 100%;
+}
+
+.content-small img {
+  display: block;
+}
+
+.section-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-one .wrap {
+  float: left;
+  width: 33.333%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 570px;
+}
+
+.content-dec {
+  padding: 50px 48px 0 40px;
+}
+
+.content-dec h4 {
+  font-size: 24px;
+}
+
+.content-dec time {
+  display: block;
+  padding: 14px 0 20px;
+  font-size: 12px;
+  opacity: 50%;
+  filter: alpha(opacity=50);
+}
+
+.content-dec i {
+  width: 38px;
+  display: block;
+  border-top: 1px solid #cccccc;
+}
+
+.content-dec p {
+  margin-top: 38px;
+  line-height: 24px;
+  font-size: 12px;
+}
+
+.content-dec a {
+  display: block;
+  margin-top: 17px;
+  color: black;
+  text-align: center;
+  height: 31px;
+  line-height: 31px;
+  width: 93px;
+  border: 1px solid black;
+}
+
+.content-dec-two {
+  padding: 38px 19px 0 38px;
+}
+
+.content-dec-two h4 {
+  font-size: 24px;
+}
+
+.content-dec-two time {
+  display: block;
+  padding: 14px 0 20px;
+  font-size: 12px;
+  opacity: 50%;
+  filter: alpha(opacity=50);
+}
+
+.content-dec-two i {
+  width: 38px;
+  display: block;
+  border-top: 1px solid #cccccc;
+}
+
+.content-dec-two p {
+  margin-top: 38px;
+  line-height: 24px;
+  font-size: 12px;
+}
+
+.content-dec-two a {
+  display: block;
+  margin-top: 17px;
+  color: black;
+  text-align: center;
+  height: 31px;
+  line-height: 31px;
+  width: 93px;
+  border: 1px solid black;
 }
 /*# sourceMappingURL=main.css.map */

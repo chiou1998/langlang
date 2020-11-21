@@ -15,13 +15,18 @@
     transition: all 1s ease 0s;
     left:0px;
     // 解决了图片这类内联元素自带的下缝隙，不是所有浏览器都存在此类bug，只限ie7 
-    ul:nth-child(1){ 
+    ul{
+        font-size: 0;
+        img{
+            display: block;
+        }
+    }
+    ul :nth-child(1){ 
         padding: 0;
         font-size: 0;
         li{
             float: left;
             list-style: none;
-        
         }
     }
 }
@@ -145,15 +150,108 @@ section{
         
     }  
 }
+
+.section-one div:nth-child(1){
+    .content-flex-big{order: 1;}
+    .content-flex-small{order: 2;}\
+    //order控制div顺序
+}
+
+.content-flex{display: flex;height: 100%;flex-direction: column}
+.content-flex-big{flex: 2;}
+.content-flex-small{flex: 1;}
+.content-big{
+   height: 100%;
+    img{
+        display: block;
+        //解决图片下方出现1px空袭
+    }
+}
+.content-small{
+    height: 100%;
+    img{
+        display: block;
+    }
+}
+
 .section-one{   
+    display: flex;
     .wrap{              
        float: left;  
        width: 33.333%;
+       flex: 1;
+       height: 570px;
     }
 }
-    .content-big{
-        height: 380px;
+    // .content-big{
+    //     height: 380px;
+    // }
+    // .content-small{
+    //     height: 190px;
+    // }
+    .content-dec{
+        padding: 50px 48px 0 40px;
+        h4{
+            font-size: 24px;
+        }
+        time{
+            display: block;
+            padding:14px 0 20px;
+            font-size: 12px;
+            opacity: 50%;
+            filter: alpha(opacity=50);
+        }
+        i{
+            width: 38px;
+            display: block;
+            border-top: 1px solid #cccccc;
+        }
+        p{
+           margin-top: 38px;
+           line-height: 24px;
+           font-size: 12px;
+        }
+        a{
+            display: block;
+            margin-top: 17px;
+            color: black;
+            text-align: center;
+            height: 31px;
+            line-height: 31px;
+            width: 93px;
+            border: 1px solid black;
+        }
     }
-    .content-small{
-        height: 190px;
+    .content-dec-two{
+        padding: 38px 19px 0 38px;
+        h4{
+            font-size: 24px;
+        }
+        time{
+            display: block;
+            padding:14px 0 20px;
+            font-size: 12px;
+            opacity: 50%;
+            filter: alpha(opacity=50);
+        }
+        i{
+            width: 38px;
+            display: block;
+            border-top: 1px solid #cccccc;
+        }
+        p{
+           margin-top: 38px;
+           line-height: 24px;
+           font-size: 12px;
+        }
+        a{
+            display: block;
+            margin-top: 17px;
+            color: black;
+            text-align: center;
+            height: 31px;
+            line-height: 31px;
+            width: 93px;
+            border: 1px solid black;
+        }
     }

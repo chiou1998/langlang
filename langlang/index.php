@@ -150,30 +150,77 @@
                 care for teeth to create a better future</p>
         </div>
             </header>
-            <div class="section-one clearfix">
-                <div class="wrap">
-                    <div class="content-big">
-                        <img src="./images/content-one.jpg" alt="">
-                    </div>
-                    <div class="content-small">
-                      <img src="./images/content-two.jpg" alt="">
-                    </div>
-                </div>
-                <div class="wrap">
-                <div class="content-big">
-                        <img src="./images/content-three.jpg" alt="">
-                        </div>
-                        <div class="content-small">
-                        <img src="./images/content-four.jpg" alt="">
-                        </div>
-                </div>
-                <div class="wrap">
-                        <div class="content-small">
-                        <img src="./images/content-five.jpg" alt="">  
-                        </div>
+            <div class="section-one ">
+                <div class="wrap"> 
+                    <div class="content-flex">
+                        <div class="content-flex-big">
                         <div class="content-big">
-                        <img src="./images/content-six.jpg" alt="">
+                        <img src="./images/content-one.jpg" alt="爱能养老院活动"> 
+                    </div>
                         </div>
+                        <div class="content-flex-small">
+                        <div class="content-small" style="background:#eae9e4">
+                      <div class="content-dec-two">
+                        <h4>爱能养老院活动</h4>
+                        <time datatime="2016-09-17">2016-09-17</time>
+                        <i></i>
+                        <a href="">查看更多
+                        <svg t="1605791877385" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3858" width="200" height="200"><path d="M938.5 535.8h-851c-12.8 0-23.3-10.4-23.3-23.3 0-12.8 10.4-23.3 23.3-23.3h851c12.8 0 23.3 10.4 23.3 23.3-0.1 12.8-10.5 23.3-23.3 23.3z" fill="#2c2c2c" p-id="3859"></path><path d="M777.6 718.7c-6 0-11.9-2.3-16.5-6.8-9.1-9.1-9.1-23.8 0-32.9l145.3-145.3c11.7-11.7 11.7-30.7 0-42.3L761.2 346.1c-9.1-9.1-9.1-23.8 0-32.9 9.1-9.1 23.8-9.1 32.9 0l145.3 145.3c29.8 29.8 29.8 78.3 0 108.1L794.1 711.8c-4.6 4.6-10.5 6.9-16.5 6.9z" fill="#2c2c2c" p-id="3860"></path></svg>
+                        </a>
+                      </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="wrap">
+                    <div class="content-flex">
+                       <div class="content-flex-big">
+                       <div class="content-big">
+                    <div class="content-dec">
+                        <h4>美吉姆早教义诊活动</h4>
+                        <time datetime="2016-09-17">2016-09-17</time>
+                        <i></i>
+                        <p>在“牙齿健康从娃娃抓起”大型美吉姆公益义诊活动现场，参与活动的朗朗口腔辽宁分公司儿童口腔专家王阳有着丰富的临床治疗经验，包括儿童龋病、儿童口腔外科、儿童错颌畸形早期矫治等，囊括了儿童口腔健康的各个方面。王医生现场对孩子们进行了细致的口腔检查</p>
+                        <a href="">
+                            查看更多
+                            <svg t="1605791877385" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3858" width="200" height="200"><path d="M938.5 535.8h-851c-12.8 0-23.3-10.4-23.3-23.3 0-12.8 10.4-23.3 23.3-23.3h851c12.8 0 23.3 10.4 23.3 23.3-0.1 12.8-10.5 23.3-23.3 23.3z" fill="#2c2c2c" p-id="3859"></path><path d="M777.6 718.7c-6 0-11.9-2.3-16.5-6.8-9.1-9.1-9.1-23.8 0-32.9l145.3-145.3c11.7-11.7 11.7-30.7 0-42.3L761.2 346.1c-9.1-9.1-9.1-23.8 0-32.9 9.1-9.1 23.8-9.1 32.9 0l145.3 145.3c29.8 29.8 29.8 78.3 0 108.1L794.1 711.8c-4.6 4.6-10.5 6.9-16.5 6.9z" fill="#2c2c2c" p-id="3860"></path></svg>
+                        </a>
+                    </div>
+                            </div>
+                       </div>
+                       <div class="content-flex-small">
+                       <div class="content-small">
+                        <img src="./images/content-four.jpg" alt="美吉姆早教义诊活动">
+                        </div>
+                </div> 
+                       </div>
+                    </div>
+                
+                        
+                <div class="wrap">
+                    <div class="content-flex">
+                    <div class="content-flex-small">
+                    <div class="content-small">
+                        <img src="./images/content-five.jpg" alt="商业城公益捐赠活动">  
+                        </div>
+                            </div>
+                        <div class="content-flex-big">
+                        <div class="content-big" style="background:#e03854">
+                        <div class="content-dec" style="color:white" >
+                    <h4>商业城公益捐赠活动</h4>
+                    <time datetime="2016-09-17">2016-09-17</time>
+                    <i></i>
+                    <p>朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣传部副部长葛本亮、辽宁省残联秘书长胡雅菊、商业城总经理刘丽</p>
+                    <a href="" style="border-color:white;color:white;svg:white;">
+                        查看更多
+                        <svg t="1605791877385" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3858" width="200" height="200"><path d="M938.5 535.8h-851c-12.8 0-23.3-10.4-23.3-23.3 0-12.8 10.4-23.3 23.3-23.3h851c12.8 0 23.3 10.4 23.3 23.3-0.1 12.8-10.5 23.3-23.3 23.3z" fill="white" p-id="3859"></path><path d="M777.6 718.7c-6 0-11.9-2.3-16.5-6.8-9.1-9.1-9.1-23.8 0-32.9l145.3-145.3c11.7-11.7 11.7-30.7 0-42.3L761.2 346.1c-9.1-9.1-9.1-23.8 0-32.9 9.1-9.1 23.8-9.1 32.9 0l145.3 145.3c29.8 29.8 29.8 78.3 0 108.1L794.1 711.8c-4.6 4.6-10.5 6.9-16.5 6.9z" fill="white" p-id="3860"></path></svg>
+                    </a>
+                </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
                 </div>
             </div>
