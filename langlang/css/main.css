@@ -10,12 +10,20 @@
   left: 0px;
 }
 
-#slide-content ul:nth-child(1) {
+#slide-content ul {
+  font-size: 0;
+}
+
+#slide-content ul img {
+  display: block;
+}
+
+#slide-content ul {
   padding: 0;
   font-size: 0;
 }
 
-#slide-content ul:nth-child(1) li {
+#slide-content ul li {
   float: left;
   list-style: none;
 }

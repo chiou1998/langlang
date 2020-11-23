@@ -21,7 +21,7 @@
             display: block;
         }
     }
-    ul :nth-child(1){ 
+    ul{ 
         padding: 0;
         font-size: 0;
         li{
@@ -153,7 +153,7 @@ section{
 
 .section-one div:nth-child(1){
     .content-flex-big{order: 1;}
-    .content-flex-small{order: 2;}\
+    .content-flex-small{order: 2;}
     //order控制div顺序
 }
 
