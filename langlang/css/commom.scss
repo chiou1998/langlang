@@ -361,10 +361,9 @@ footer{
     to{transform: rotate(360deg);}
 }
 
-.loading-wait{
-    text-align: center;
+.loading-wait{   
     padding-bottom: 20px;
-    font-weight: normal;
+    font-weight: normal;  
     svg{
         font-size: 1.5em;
         padding-top:5px;
@@ -373,6 +372,12 @@ footer{
     }
 }
 
+#w11{
+    margin:auto;
+}
+#i1{
+    text-align: center;
+}
 //定义了一个padding类
 @for $i from 1 through 1000{
     .padding-top-#{$i} {padding-top: (1px * $i);}

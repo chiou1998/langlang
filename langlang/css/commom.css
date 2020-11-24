@@ -432,7 +432,6 @@ footer {
 }
 
 .loading-wait {
-  text-align: center;
   padding-bottom: 20px;
   font-weight: normal;
 }
@@ -444,6 +443,14 @@ footer {
   transform: rotate(0deg);
   -webkit-animation: loading 1s linear infinite;
           animation: loading 1s linear infinite;
+}
+
+#w11 {
+  margin: auto;
+}
+
+#i1 {
+  text-align: center;
 }
 
 .padding-top-1 {
