@@ -131,9 +131,7 @@
     <div id="i1">
         
     </div>
-            <ul class="clearfix">
-                           
-        </ul>
+            
         <a class="more" href="">查看更多</a>
         </div>
         <section>
@@ -314,7 +312,7 @@
     })
             return false
       }
-      let ul = '<ul class=""clearfix>'
+      let ul = '<ul class="clearfix">'
        req.data.forEach(item => {
           ul +=
           `

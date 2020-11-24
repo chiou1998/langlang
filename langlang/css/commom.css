@@ -434,6 +434,7 @@ footer {
 .loading-wait {
   padding-bottom: 20px;
   font-weight: normal;
+  text-align: center;
 }
 
 .loading-wait svg {
@@ -447,10 +448,6 @@ footer {
 
 #w11 {
   margin: auto;
-}
-
-#i1 {
-  text-align: center;
 }
 
 .padding-top-1 {
