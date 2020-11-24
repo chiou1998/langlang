@@ -205,10 +205,6 @@ section header .main-column {
   display: block;
 }
 
-w11, w22, w33 {
-  width: 33.333%;
-}
-
 .section-one {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,5 +296,11 @@ w11, w22, w33 {
   line-height: 31px;
   width: 93px;
   border: 1px solid black;
+}
+
+#w11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=main.css.map */

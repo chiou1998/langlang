@@ -52,7 +52,7 @@ if($module == 'welfare' && $categoryId == 10000) {
             'imgUrl' => 'http://www.web-jshtml.cn/data/upload/ds4af654d1f32adsf2we1f2dsf.jpg',
             'title' => '商业城公益捐赠活动',
             'dec' => '朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣传部副部长葛本亮、辽宁省残联秘书长胡雅菊、商业城总经理刘丽',
-            'color' => 'color-white',
+            'color' => 'white',
             'bgColor' => 'e03854'
         )
     );
