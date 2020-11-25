@@ -150,6 +150,10 @@
   color: white;
 }
 
+section {
+  margin-bottom: 90px;
+}
+
 section header .main-column {
   background-color: #efefef;
 }

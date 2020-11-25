@@ -121,19 +121,26 @@
         </span>
     </div>
     <div class="container">
-        <div class="main-column">
+    <section>
+            <header>
+            <div class="main-column" style="background-color:white;">
             <h4 class="column-title">朗朗口腔</h4>
             <p class="column-dec">呵护牙齿健康  创造美好未来
                 <span></span>
                 care for teeth to create a better future</p>
         </div>
-        <div class="list-info"> 
+            </header>
+            <div class="list-info"> 
     <div id="i1">
         
     </div>
             
         <a class="more" href="">查看更多</a>
         </div>
+        </section>
+
+        
+       
         <section>
             <header>
             <div class="main-column padding-top-55 padding-bottom-53">
