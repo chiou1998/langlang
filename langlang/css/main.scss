@@ -173,15 +173,25 @@ section{
 .content-flex-small{flex: 1;}
 .content-big{
    height: 100%;
+   overflow: hidden;
     img{
         display: block;
+        transition: all ease 1s;
+        &:hover{
+            scale: 1.2;
+        }
         //解决图片下方出现1px空袭
     }
 }
 .content-small{
     height: 100%;
+    overflow: hidden;
     img{
         display: block;
+        transition: all ease 1s;
+        &:hover{
+            scale: 1.2;
+        }
     }
 }
 
@@ -270,4 +280,28 @@ section{
     }
     #w11{
         display: flex;
+    }
+
+    .doctor{
+        background-color: #f6f6f6;
+        .img{
+                float: left;
+        }
+        .content{
+            margin-left: 560px;
+            font-size: 12px;
+            padding-top: 10px;
+            
+            p{
+                margin-top: 30px;
+                line-height: 21px;
+            }
+            span{
+                padding:16px 0;
+                 display:block
+            }
+            h4{
+                font-size: 18px;
+            }
+        }
     }

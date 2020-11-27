@@ -132,14 +132,10 @@
             </header>
             <div class="list-info"> 
     <div id="i1">
-        
     </div>
-            
         <a class="more" href="">查看更多</a>
         </div>
         </section>
-
-        
        
         <section>
             <header>
@@ -216,6 +212,31 @@
             </div> -->
         </section>
     </div>
+        <section class="doctor padding-top-90 padding-bottom-90 margin-bottom-90" style="margin-bottom:0">
+            <header> </header>
+            <div class="container">
+                <div class="doctor-slide-item clearfix"> 
+                    <div class="img">
+                        <img src="./images/sec-one.jpg" alt="方晓珍">
+                    </div>
+                    <div class="content content-dec">
+                        <h4 style="">商业城公益捐赠活动</h4>
+                        <span style="">擅长：仿真陶瓷牙修复、牙周系统治疗、残根残冠的保存治疗等。</span>
+                        <i></i>
+                        <p>朗朗口腔辽宁分公司于2016年9月17日在沈阳核心商圈中街商业城举办公益助残捐赠活动，本次共计为辽宁省残疾人福利基金会捐助善款184500元，朗朗口腔辽宁分公司CEO张显威、总经理杜忠华、原省委宣传部副部长葛本亮、辽宁省残联秘书长胡雅菊、商业城总经理刘丽</p>
+                        <a href="" style="color:black;border:none">
+                            查看更多
+                            <svg t="1605791877385" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3858" width="200" height="200"><path d="M938.5 535.8h-851c-12.8 0-23.3-10.4-23.3-23.3 0-12.8 10.4-23.3 23.3-23.3h851c12.8 0 23.3 10.4 23.3 23.3-0.1 12.8-10.5 23.3-23.3 23.3z" fill="black" p-id="3859"></path><path d="M777.6 718.7c-6 0-11.9-2.3-16.5-6.8-9.1-9.1-9.1-23.8 0-32.9l145.3-145.3c11.7-11.7 11.7-30.7 0-42.3L761.2 346.1c-9.1-9.1-9.1-23.8 0-32.9 9.1-9.1 23.8-9.1 32.9 0l145.3 145.3c29.8 29.8 29.8 78.3 0 108.1L794.1 711.8c-4.6 4.6-10.5 6.9-16.5 6.9z" fill="color:black" p-id="3860"></path></svg>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+
+
+        
     <div class="footer-first">
     <div class="container">
             <footer>

@@ -195,18 +195,32 @@ section header .main-column {
 
 .content-big {
   height: 100%;
+  overflow: hidden;
 }
 
 .content-big img {
   display: block;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+.content-big img:hover {
+  scale: 1.2;
 }
 
 .content-small {
   height: 100%;
+  overflow: hidden;
 }
 
 .content-small img {
   display: block;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+.content-small img:hover {
+  scale: 1.2;
 }
 
 .section-one {
@@ -306,5 +320,33 @@ section header .main-column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.doctor {
+  background-color: #f6f6f6;
+}
+
+.doctor .img {
+  float: left;
+}
+
+.doctor .content {
+  margin-left: 560px;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.doctor .content p {
+  margin-top: 30px;
+  line-height: 21px;
+}
+
+.doctor .content span {
+  padding: 16px 0;
+  display: block;
+}
+
+.doctor .content h4 {
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */

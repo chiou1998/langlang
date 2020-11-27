@@ -382,3 +382,43 @@ footer{
     .padding-top-#{$i} {padding-top: (1px * $i);}
     .padding-bottom-#{$i} {padding-bottom: (1px * $i);}
 }
+
+@for $i from 1 through 1000{
+    .margin-top-#{$i} {margin-top: (1px * $i);}
+    .margin-bottom-#{$i} {margin-bottom: (1px * $i);}
+}
+
+.content-dec{
+    padding: 50px 48px 0 40px;
+    h4{
+        font-size: 24px;
+    }
+    time{
+        display: block;
+        padding:14px 0 20px;
+        font-size: 12px;
+        opacity: 50%;
+        filter: alpha(opacity=50);
+    }
+    i{
+        width: 38px;
+        display: block;
+        
+        border-top: 1px solid #cccccc;
+    }
+    p{
+       margin-top: 38px;
+       line-height: 24px;
+       font-size: 12px;
+    }
+    a{
+        display: block;
+        margin-top: 17px;
+        color: black;
+        text-align: center;
+        height: 31px;
+        line-height: 31px;
+        width: 93px;
+        border: 1px solid black;
+    }
+}
