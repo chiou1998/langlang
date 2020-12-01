@@ -230,7 +230,6 @@ section header .main-column {
 }
 
 .section-one .wrap {
-  float: left;
   width: 100%;
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -324,16 +323,32 @@ section header .main-column {
 
 .doctor {
   background-color: #f6f6f6;
+  position: relative;
 }
 
 .doctor .img {
   float: left;
+  position: relative;
+}
+
+.doctor .name {
+  position: absolute;
+  height: 48px;
+  line-height: 48px;
+  top: 50%;
+  margin-top: -24px;
+  color: #fff;
+  right: 0;
+  padding: 0 29px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 18px;
 }
 
 .doctor .content {
   margin-left: 560px;
   font-size: 12px;
   padding-top: 10px;
+  color: #6d6a6a;
 }
 
 .doctor .content p {
@@ -348,5 +363,32 @@ section header .main-column {
 
 .doctor .content h4 {
   font-size: 18px;
+  color: black;
+}
+
+.doctor .content a {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.swiper-pagination {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 34px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 8px;
+  margin: 3px;
+  height: 3px;
+  opacity: 1;
+  border-radius: 0;
+  filter: alpha(opacity=100);
+  background-color: #a0a0a0;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: black;
 }
 /*# sourceMappingURL=main.css.map */
