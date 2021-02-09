@@ -16488,4 +16488,23 @@ footer {
   width: 93px;
   border: 1px solid black;
 }
+
+.tab-menu {
+  text-align: center;
+}
+
+.tab-menu a {
+  display: inline-block;
+  border: 1px solid #a0a0a0;
+  text-align: center;
+  line-height: 32px;
+  padding: 0 25px;
+  color: black;
+}
+
+.tab-menu a.current {
+  background-color: #a0a0a0;
+  color: white;
+  border-color: #a0a0a0;
+}
 /*# sourceMappingURL=commom.css.map */

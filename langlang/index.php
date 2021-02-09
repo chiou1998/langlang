@@ -224,7 +224,7 @@
             <div class="swiper-slide"><div class="doctor-slide-item clearfix"> 
                     <div class="img">
                     <div class="name">
-                        方小琴
+            方小琴
                     </div>
                         <img src="./images/sec-one.jpg" alt="方晓珍">
                     </div>
@@ -291,14 +291,64 @@
             <div class="container">
                 <section>
                     <header>
-                    <div class="main-column" style="background-color:white;">
+                    <div class="main-column padding-top-90 padding-bottom-40" style="background-color:white;">
             <h4 class="column-title">资讯动态</h4>
             <p class="column-dec">呵护牙齿健康  创造美好未来
                 <span></span>
                 care for teeth to create a better future</p>
         </div>
                     </header>
-
+                <ul class="news-tab-menu tab-menu">
+                    <a href="" title="行业动态" class="current">行业动态</a>
+                    <a href="" title="朗朗资讯">朗朗资讯</a>
+                    <a href="" title="媒体报道">媒体报道</a>
+                    <a href="" title="公益活动">公益活动</a>
+                </ul>
+                <div class="news-wrap clearfix">
+                   <div class="box">
+                   <div class="content-dec ">
+                       <img src="./images/after-one.jpg" alt="">
+                       <h4>朗朗口腔“合赢未来，与资本共...</h4>
+                       <time datetime="">2016-09-27</time>
+                       <i></i>
+                       <p>朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                       <a href="">查看更多
+                       <svg t="1605791877385" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3858" width="200" height="200"><path d="M938.5 535.8h-851c-12.8 0-23.3-10.4-23.3-23.3 0-12.8 10.4-23.3 23.3-23.3h851c12.8 0 23.3 10.4 23.3 23.3-0.1 12.8-10.5 23.3-23.3 23.3z" fill="" p-id="3859"></path><path d="M777.6 718.7c-6 0-11.9-2.3-16.5-6.8-9.1-9.1-9.1-23.8 0-32.9l145.3-145.3c11.7-11.7 11.7-30.7 0-42.3L761.2 346.1c-9.1-9.1-9.1-23.8 0-32.9 9.1-9.1 23.8-9.1 32.9 0l145.3 145.3c29.8 29.8 29.8 78.3 0 108.1L794.1 711.8c-4.6 4.6-10.5 6.9-16.5 6.9z" fill="color:" p-id="3860"></path></svg>
+                       </a>
+                   </div>
+                   <div class="content-dec ">
+                       <img src="./images/after-two.jpg" alt="">
+                       <h4>朗朗口腔“合赢未来，与资本共...</h4>
+                       <time datetime="">2016-09-27</time>
+                       <i></i>
+                       <p>朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                       <a href="">查看更多
+                       <svg t="1605791877385" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3858" width="200" height="200"><path d="M938.5 535.8h-851c-12.8 0-23.3-10.4-23.3-23.3 0-12.8 10.4-23.3 23.3-23.3h851c12.8 0 23.3 10.4 23.3 23.3-0.1 12.8-10.5 23.3-23.3 23.3z" fill="" p-id="3859"></path><path d="M777.6 718.7c-6 0-11.9-2.3-16.5-6.8-9.1-9.1-9.1-23.8 0-32.9l145.3-145.3c11.7-11.7 11.7-30.7 0-42.3L761.2 346.1c-9.1-9.1-9.1-23.8 0-32.9 9.1-9.1 23.8-9.1 32.9 0l145.3 145.3c29.8 29.8 29.8 78.3 0 108.1L794.1 711.8c-4.6 4.6-10.5 6.9-16.5 6.9z" fill="color:" p-id="3860"></path></svg>
+                       </a>
+                   </div> 
+                   <div class="content-dec ">
+                       <img src="./images/after-three.jpg" alt="">
+                       <h4>朗朗口腔“合赢未来，与资本共...</h4>
+                       <time datetime="">2016-09-27</time>
+                       <i></i>
+                       <p>朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                       <a href="">查看更多
+                       <svg t="1605791877385" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3858" width="200" height="200"><path d="M938.5 535.8h-851c-12.8 0-23.3-10.4-23.3-23.3 0-12.8 10.4-23.3 23.3-23.3h851c12.8 0 23.3 10.4 23.3 23.3-0.1 12.8-10.5 23.3-23.3 23.3z" fill="" p-id="3859"></path><path d="M777.6 718.7c-6 0-11.9-2.3-16.5-6.8-9.1-9.1-9.1-23.8 0-32.9l145.3-145.3c11.7-11.7 11.7-30.7 0-42.3L761.2 346.1c-9.1-9.1-9.1-23.8 0-32.9 9.1-9.1 23.8-9.1 32.9 0l145.3 145.3c29.8 29.8 29.8 78.3 0 108.1L794.1 711.8c-4.6 4.6-10.5 6.9-16.5 6.9z" fill="color:" p-id="3860"></path></svg>
+                       </a>
+                   </div> 
+                   <div class="content-dec ">
+                       <img src="./images/after-four.jpg" alt="">
+                       <h4>朗朗口腔“合赢未来，与资本共...</h4>
+                       <time datetime="">2016-09-27</time>
+                       <i></i>
+                       <p>朗朗口腔“合赢未来，与资本共舞”口腔行业峰会继山东青岛第一站后，即将迎来第二站：福建厦门站...</p>
+                       <a href="">查看更多
+                       <svg t="1605791877385" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3858" width="200" height="200"><path d="M938.5 535.8h-851c-12.8 0-23.3-10.4-23.3-23.3 0-12.8 10.4-23.3 23.3-23.3h851c12.8 0 23.3 10.4 23.3 23.3-0.1 12.8-10.5 23.3-23.3 23.3z" fill="" p-id="3859"></path><path d="M777.6 718.7c-6 0-11.9-2.3-16.5-6.8-9.1-9.1-9.1-23.8 0-32.9l145.3-145.3c11.7-11.7 11.7-30.7 0-42.3L761.2 346.1c-9.1-9.1-9.1-23.8 0-32.9 9.1-9.1 23.8-9.1 32.9 0l145.3 145.3c29.8 29.8 29.8 78.3 0 108.1L794.1 711.8c-4.6 4.6-10.5 6.9-16.5 6.9z" fill="color:" p-id="3860"></path></svg>
+                       </a>
+                   </div>              
+                             
+                   </div>
+                </div>
                 </section>
             </div>
         <!-- 资讯动态end -->

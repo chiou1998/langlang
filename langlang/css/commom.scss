@@ -422,3 +422,22 @@ footer{
         border: 1px solid black;
     }
 }
+
+// .tab-menu 公用类
+.tab-menu{
+    text-align: center;
+   a{
+    display: inline-block;
+    border: 1px solid $text-two;
+    text-align: center;
+    line-height: 32px;
+    padding: 0 25px;
+    color:black;
+    &.current{
+        background-color: $text-two;
+        color: white;
+        border-color:  $text-two;
+    }
+   }
+}
+
