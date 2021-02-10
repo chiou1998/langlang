@@ -432,7 +432,7 @@
 <script src="./js/jquery-3.5.1.js"></script>
 <script src="./js/common.js"></script>
 <script src="./swiper/js/swiper.min.js"></script>
-
+ <script src="./js/ajax.js"></script>
 <script>
     loading({
         id:'i1',
